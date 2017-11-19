@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Average+Sans');
+
+body,img,ul,li,p{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+  padding: 0;
+  max-width: 100%;
+  margin: 0;
+}
+.mainDescription{
+     background: whitesmoke; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(whitesmoke,white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(whitesmoke,white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(whitesmoke,white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(whitesmoke,white); /* Standard syntax */
+  font-family: 'Average Sans', sans-serif;
+  margin: auto;
+    
+    color:black;
+   padding-left:2%;
+   padding-right: 2%; 
+    width: 80%;
+   
+    
+     box-shadow: 5px 5px 200px lightgray;
+
+}
+
+p{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.face{
+    width: 30%;
+    float: left;
+
+}
+  table,td,tr{
+      vertical-align: text-top;
+     font-family: 'Average Sans', sans-serif;
+  color:black;
+   padding: 1%;
+   font-size: 1em;
+     } 
+.quote{
+        font-family: 'Pathway Gothic One', sans-serif;
+    margin-top:3%;
+    padding: 3%;
+    font-style: italic;
+    font-size: 2em;
+}
+.bio{
+    text-align: justify;
+     font-size: 1em;
+       padding: 3%;
+    clear: left;
+    
+}
+
+.facts{
+    margin-top: 2%; 
+    color:white;
+    width: 100%;
+  font-size: 1em;
+}
+h1{
+    color: black;
+    font: 2em;
+     font-family: 'Pathway Gothic One', sans-serif;
+   
+}
+.nav{
+  
+    font-size:2em;
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0.25%;
+    width: 100%;
+    background-color: #1a3156; 
+}
+.homeImg{
+    width: 100%;
+}
+
+.container{  
+ background-color: white;
+}
+
+
+
+@media screen and (min-width: 500px) {
+
+
+}

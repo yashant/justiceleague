@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Average+Sans');
+
+body,img,ul,li,p,div{
+    margin: 0px;
+    padding: 0px;
+    font: black;
+   font-family: 'Average Sans', sans-serif;
+  
+}
+.picContainer{
+    width: 90%;
+    margin: auto;
+}
+
+.closeBack{
+    margin: auto;
+    width: 70%;
+    background-color: black;
+    
+    height: 30px;
+
+}
+h1{
+font-family: 'Pathway Gothic One', sans-serif;
+   font-size: 3em;
+    
+}
+h2{
+   font-family: 'Pathway Gothic One', sans-serif;
+  
+}
+.cast{
+   
+    display: block;
+}
+.close{
+   padding: 3px;
+    float: right;
+    width: 25px;
+    
+}
+.desp{
+  font-family: 'Average Sans', sans-serif;
+}
+.movie{
+        margin:auto;
+
+    margin-top: 1.5%;
+    width:80%;
+    
+}
+.video{
+width: 100%;
+}
+#overlay{
+    display: none;
+    position: fixed;
+     z-index: 1;
+    background-color: rgba(0,0,0,0.9);
+    
+vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+td{
+   vertical-align: top;
+   padding-right: 25px;
+    
+}
+
+#imgBDiv{
+    margin: auto;
+    vertical-align: middle;
+    width: 70%;
+    text-align: center;
+   
+    opacity: 1;
+    
+}
+#overlayImg{
+    display:table-cell;
+    opacity: 1;
+    margin: auto;
+}
+
+.wrapper{
+  padding: 0;
+  max-width: 100%;
+  margin: 0;
+
+}
+.activeH{
+   background-color: #233233;
+}
+p{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    font-family: 'Pathway Gothic One', sans-serif;
+ 
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.nav{
+    font-size:2em;
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0.25%;
+    width: 100%;
+    background-color: #1a3156; 
+}
+
+.homeImg{
+    width: 100%;
+}
+p{
+     font-family: 'Josefin Sans', sans-serif;
+}
+
+/*.mainBody{
+    position: absolute;
+    
+width: 100%;
+margin: auto;
+text-align: center;
+
+background-color: #D3D3D3; 
+}*/
+/*
+.meme{
+
+    background-color:lightgray;
+    width: 40%;
+    float: left;
+    margin: auto;
+    margin-bottom:4%; 
+     margin-left: 2.5%;  
+    padding: 3%;
+
+    box-shadow: 0px 5px 5px grey;
+}*/
+
+
+
+
+@media screen and (min-width: 300px) {
+    
+  .wrapper {
+    max-width: 100%;
+ }
+
+.picContainer{
+    width: 90%;
+    margin: auto;
+}
+
+ .mainBody{
+    position: absolute;
+width: 100%;
+margin: auto;
+text-align: center;
+
+background-color: #D3D3D3; 
+}
+
+.meme{
+     background-color:whitesmoke; 
+    width: 60%;
+    float: none;
+    margin-top:1%;
+    margin-bottom:4%; 
+    margin-left: 2.5%; 
+    padding: 3%;
+
+    box-shadow: 0px 5px 5px grey;
+}
+}
+
+
+@media screen and (min-width: 1000px) {
+  
+
+  .wrapper {
+    max-width: 100%;
+    }
+  .mainBody{
+    position: absolute;
+width: 100%;
+margin: auto;
+text-align: center;
+
+background-color: #D3D3D3; 
+}
+
+.picContainer{
+    width: 75%;
+    margin: auto;
+}
+
+.meme{
+
+    background-color:whitesmoke;
+    width: 40%;
+    float: left;
+    margin-top:1%;
+    margin-bottom:4%; 
+    margin-left: 2.5%; 
+    padding: 3%;
+    max-width: 750px;
+    box-shadow: 0px 5px 5px grey;
+}
+}

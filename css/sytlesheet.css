@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body,img,ul,li,p,div{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Pathway Gothic One', sans-serif;
+  
+}
+.wrapper{
+  padding: 0;
+  max-width: 100%;
+  margin: 0;
+
+}
+.activeH{
+   background-color: #233233;
+}
+
+
+p{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.nav{
+    font-size:2em;
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 0.25%;
+    width: 100%;
+    background-color: #1a3156; 
+}
+p{
+     font-family: 'Josefin Sans', sans-serif;
+}
+
+.header{
+    margin: 0px;
+    padding: 0px;
+    
+    width: 100%;
+}
+.homeImg{
+    width: 100%;
+}
+
+.homeBlock{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    opacity: 0.85;    
+}
+
+.homeBlock:hover{
+   opacity: 0.95;
+}
+.homeBlock:active{
+   opacity: 1;
+}
+#batman{
+    text-align: center;
+     margin: 0px;
+    padding: 0px;
+    background-color: #1E1E1E;
+}
+.s_div{
+    padding-top: 1%;
+     margin: auto;
+    margin-left: 47%;
+    width: 22%;    
+
+}
+.s_div1{
+    padding-top: 1%;
+    margin: auto;
+    margin-left: 45%;
+    width: 22%;       
+}
+
+#Superman{
+ text-align: center;
+ margin: 0px;
+    padding: 0px;
+  background-color: #114F8C;
+}
+
+#GreenLantern{
+    text-align: center;
+  background-color: #B8BB4A;
+}
+#Wonderwoman{
+    text-align: center;
+  background-color: #3D2A4A;
+}
+#Flash{
+    text-align: center;
+  background-color: #D14840;
+}
+.imgBlock{
+   z-index: 1;
+   width: 100%;
+    }
+
+.eyes{
+    width: 22%;
+    position: absolute;
+    z-index: 11;
+    visibility: hidden;
+    
+}
+.homeBlock:hover .eyes{
+    visibility:visible;
+}
+.homeBlock:hover .eyes1{
+    visibility:visible;
+}
+
+/*@media screen and (min-width: 2500px) {
+     .s_div{
+    margin: auto;
+    margin-left: 47%;
+   
+}
+.s_div1{
+    margin: auto;
+    margin-left: 46.2%;
+    min-width: 20%;
+    
+}
+}*/
+
+@media screen and (min-width: 800px) {
+    
+  .wrapper {
+    max-width: 100%;
+ }
+  .s_div{
+   
+    padding-top: 1%;
+    margin: auto;
+    margin-left: 44%;
+     min-width: 38%;
+}
+.s_div1{
+
+    padding-top: 1%;
+    margin: auto;
+    margin-left: 42.5%;
+    min-width: 38%;
+    }
+    .eyes{
+    width: 38%;
+    position: absolute;
+    z-index: 11;
+    visibility: hidden;
+    
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+  
+  .wrapper {
+    max-width: 100%;
+  }
+
+ .s_div{
+    padding-top: 1%;
+    
+    margin: auto;
+    margin-left: 46.5%;
+     min-width: 20%;
+}
+.s_div1{
+    padding-top: 1%;
+    
+    margin: auto;
+    margin-left: 45.5%;
+    min-width: 20%;
+    }
+     .eyes{
+    width: 22%;
+    position: absolute;
+    z-index: 11;
+    visibility: hidden;
+    
+    }
+}
